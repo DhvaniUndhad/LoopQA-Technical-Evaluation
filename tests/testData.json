@@ -1,0 +1,25 @@
+{
+    "WebApplication":
+        [
+            { "id": "1", "elementLocator": "//h2[text()='To Do']/following-sibling::div/div[1]/h3", "expected": "Implement user authentication" },
+            { "id": "2", "elementLocator": "(//h2[text()='To Do']/following-sibling::div/div/div/span)[1]", "expected": "Feature"},
+            { "id": "3", "elementLocator": "(//h2[text()='To Do']/following-sibling::div/div/div/span)[2]", "expected": "High Priority"},
+            { "id": "4", "elementLocator": "//h2[text()='To Do']/following-sibling::div/div[2]/h3", "expected": "Fix navigation bug"},
+            { "id": "5", "elementLocator": "(//h2[text()='To Do']/following-sibling::div/div/div/span)[3]", "expected": "Bug"},
+            { "id": "6", "elementLocator": "//h2[text()='In Progress']/following-sibling::div/div/h3", "expected": "Design system updates"},
+            { "id": "7", "elementLocator": "//h2[text()='In Progress']/following-sibling::div/div/div/span", "expected": "Design"}
+        ],
+
+    "MobileApplication":
+        [
+            { "id": "8", "elementLocator": "//h2[text()='To Do']/following-sibling::div/div/h3", "expected": "Push notification system" },
+            { "id": "9", "elementLocator": "(//h2[text()='To Do']/following-sibling::div/div/div/span)[1]", "expected": "Feature"},
+            { "id": "10", "elementLocator": "//h2[text()='In Progress']/following-sibling::div/div/h3", "expected": "Offline mode"},
+            { "id": "11", "elementLocator": "(//h2[text()='In Progress']/following-sibling::div/div/div/span)[1]", "expected": "Feature"},
+            { "id": "12", "elementLocator": "(//h2[text()='In Progress']/following-sibling::div/div/div/span)[2]", "expected": "High Priority"},
+            { "id": "13", "elementLocator": "//h2[text()='Done']/following-sibling::div/div/h3", "expected": "App icon design"},
+            { "id": "14", "elementLocator": "(//h2[text()='Done']/following-sibling::div/div/div/span)", "expected": "Design"}
+        ]
+}
+
+  

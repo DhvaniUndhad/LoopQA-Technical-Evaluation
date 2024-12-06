@@ -1,0 +1,22 @@
+{
+  "name": "loopqaevaluation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1",
+    "babel-plugin-istanbul": "^7.0.0",
+    "nyc": "^17.1.0"
+  },
+  "nyc": {
+  "reporter": ["html", "text-summary"],
+  "all": true,
+  "include": ["src/**/*.js"],  
+  "exclude": ["test/**/*.js"]
+}
+}
